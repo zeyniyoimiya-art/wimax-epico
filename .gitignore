@@ -1,0 +1,35 @@
+# dependencias
+node_modules
+.pnpm-store
+
+# compilados
+dist
+dist-ssr
+.vite
+*.tsbuildinfo
+
+# pruebas
+playwright-report
+test-results
+blob-report
+coverage
+
+# registros de instalación local
+_install.log
+_install.err
+_install2.log
+_install2.err
+npm-debug.log*
+yarn-error.log*
+
+# editor / sistema
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.local
+
+# respaldos de información generada
+pruebas/resultados
+capturas
